@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #7A7CFF;
     margin: 0;
     padding: 0;
     display: flex;
@@ -22,32 +22,53 @@ body {
 .title {
     font-size: 36px;
     margin: 10px 0;
-    color: #333;
 }
 
 .logo {
-    max-width: 200px;
+    width: 30%;
     height: auto;
     margin: 20px 0;
+    image-rendering: pixelated;
 }
 
 .description {
     font-size: 18px;
     margin: 15px 0;
-    color: #666;
 }
+
+.features-list {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* More compact columns */
+    gap: 5px; /* Reduced space between items */
+    padding: 0; /* Remove default padding */
+    list-style-type: none; /* Remove default bullet points */
+}
+
+.features-list li {
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #eeeeee; /* Background color for list items */
+     /* Border for better visibility */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 5px; /* Reduced padding inside each item */
+    text-align: center; /* Center-align text */
+     /* Further reduced font size for compactness */
+    height: 60px; /* Reduced height to ensure uniformity */
+}
+
 
 .download-button {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #6a1b9a;
+    background-color: #304FFE;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    border-radius: 8px;
+    border-radius: 6px;
     margin-top: 20px;
 }
 
 .download-button:hover {
-    background-color: #8e24aa;
+    background-color: #0026CA;
 }
