@@ -1,3 +1,3 @@
 # brue
-Automatically created backup copies of potentially important files in your Recycling Bin!
+Automatically creates backup copies of potentially important files in your Recycling Bin!
 Hello.
