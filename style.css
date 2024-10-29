@@ -72,3 +72,19 @@ body {
 .download-button:hover {
     background-color: #0026CA;
 }
+
+.donate-link-container {
+    text-align: center; /* Center the text */
+    margin: 15px 0; /* Add space around the link */
+}
+
+.donate-link {
+    color: #6f2c91; /* Link color */
+    text-decoration: underline; /* Underline the link */
+    font-size: 18px; /* Adjust font size */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.donate-link:hover {
+    color: #4a1d70; /* Darker shade on hover */
+}
