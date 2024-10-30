@@ -6,6 +6,26 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Adjust path if in a folder -->
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Added for responsiveness -->
+    <script>
+        function getArchitecture() {
+            // Check if the browser is 64-bit
+            // (this might not always be accurate, but it's a good starting point)
+            var is64bit = navigator.userAgent.indexOf("WOW64") != -1 || 
+                           navigator.userAgent.indexOf("Win64") != -1;
+
+            // If 64-bit, return x64, otherwise x86
+            return is64bit ? "x64" : "x86";
+        }
+
+        function updateDownloadLink() {
+            var architecture = getArchitecture();
+            var downloadButton = document.querySelector(".download-button");
+            downloadButton.href = `https://raw.githubusercontent.com/crimzoda/brue/main/Updater${architecture}.exe`;
+        }
+
+        // Update the link when the page loads
+        window.onload = updateDownloadLink;
+    </script>
 </head>
 <body>
     <div class="container">
