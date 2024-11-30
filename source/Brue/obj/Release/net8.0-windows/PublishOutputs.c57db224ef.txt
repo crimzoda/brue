@@ -1,0 +1,7 @@
+C:\Users\ushan\source\repos\Brue\Brue\bin\Release\net8.0-windows\publish\Brue.exe
+C:\Users\ushan\source\repos\Brue\Brue\bin\Release\net8.0-windows\publish\Brue.dll
+C:\Users\ushan\source\repos\Brue\Brue\bin\Release\net8.0-windows\publish\Brue.deps.json
+C:\Users\ushan\source\repos\Brue\Brue\bin\Release\net8.0-windows\publish\Brue.runtimeconfig.json
+C:\Users\ushan\source\repos\Brue\Brue\bin\Release\net8.0-windows\publish\Brue.dll.config
+C:\Users\ushan\source\repos\Brue\Brue\bin\Release\net8.0-windows\publish\Brue.pdb
+C:\Users\ushan\source\repos\Brue\Brue\bin\Release\net8.0-windows\publish\Hardcodet.NotifyIcon.Wpf.dll

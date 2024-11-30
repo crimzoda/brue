@@ -1,0 +1,98 @@
+﻿<Window x:Class="Brue.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
+        xmlns:local="clr-namespace:Brue"
+        mc:Ignorable="d"
+        Title="Brue" Height="450" Width="285" Loaded="Window_Loaded" ResizeMode="NoResize" Closing="Window_Closing">
+    
+    <Grid>
+        <tb:TaskbarIcon
+            x:Name="tbNotifyIcon"
+            Visibility="Visible"
+            ToolTipText="Brue"
+            IconSource="ui/tray.ico"
+            PopupActivation="DoubleClick"
+            TrayMouseDoubleClick="tbNotifyIcon_TrayMouseDoubleClick">
+            <tb:TaskbarIcon.ContextMenu>
+                <ContextMenu Style="{StaticResource ModernContextMenu}">
+                    <MenuItem x:Name="trayExit" Header="Exit" Click="trayExit_Click"/>
+                </ContextMenu>
+            </tb:TaskbarIcon.ContextMenu>
+        </tb:TaskbarIcon>
+        <TabControl Margin="0, -23, 0, 0" x:Name="tcNavigator">
+            <TabItem Header="Main">
+                <Grid x:Name="grdMain" Visibility="Visible">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="184*"/>
+                        <RowDefinition Height="30*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel x:Name="wpIdle" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="Looks like you're in the clear...for now >:)" Foreground="#FF2F48D4"/>
+                        <Image Source="ui/brue_sleeping.png" Width="64" Height="64" RenderOptions.BitmapScalingMode="NearestNeighbor" Margin="10"/>
+                    </StackPanel>
+                    <StackPanel x:Name="wpFiles" Margin="10" HorizontalAlignment="Stretch" Grid.Row="0">
+                        <!-- Files go here... -->
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="1" FlowDirection="RightToLeft" Margin="15, 0, 15, 0">
+                        <Button x:Name="btnFolder" Content="Recovery Folder" Style="{DynamicResource BrueButtonStyle}" VerticalAlignment="Center"  Click="btnFolder_Click" Margin="0, 0, 5, 0"/>
+                        <Button x:Name="btnSettings" Style="{DynamicResource BrueButtonStyle}" VerticalAlignment="Center" Margin="0, 0, 5, 0"  Click="btnSettings_Click" Padding="6">
+                            <Image Source="ui/cogwheel.png" Stretch="None" RenderOptions.BitmapScalingMode="NearestNeighbor"/>
+                        </Button>
+                        <Button x:Name="btnAbout" Style="{DynamicResource BrueButtonStyle}" VerticalAlignment="Center" Margin="0, 0, 5, 0"  Click="btnAbout_Click" Padding="6">
+                            <Image Source="ui/question_mark.png" Stretch="None" RenderOptions.BitmapScalingMode="NearestNeighbor"/>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Settings">
+                <Grid x:Name="grdSettings" Visibility="Visible">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="184*"/>
+                        <RowDefinition Height="30*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel x:Name="spSettings" VerticalAlignment="Center" Grid.Row="0" HorizontalAlignment="Stretch" Margin="20, 0, 20, 0">
+                        <Label Content="Important File Types:" HorizontalAlignment="Center" Foreground="#FF2F48D4"/>
+                        <TextBox x:Name="tbFlaggedFileTypes" Padding="2" Foreground="Black" Style="{StaticResource BrueTextBox}" TextChanged="tbFlaggedFileTypes_TextChanged" Loaded="tbFlaggedFileTypes_Loaded" Tag=".docx, .pdf, .xslx"/>
+                        <Button x:Name="btnSaveSettings" Content="Save" Style="{DynamicResource BrueButtonStyle}" VerticalAlignment="Center" HorizontalAlignment="Right"  Click="btnSaveSettings_Click"  Margin="0, 5, 0, 0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="1" FlowDirection="RightToLeft" Margin="15, 0, 15, 0">
+                        <Button x:Name="btnSettingsBacktoMain" Content="Back" Style="{DynamicResource BrueButtonStyle}" VerticalAlignment="Center"  Click="btnBackToMain_Click"  Margin="0, 0, 5, 0"/>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="About">
+                <Grid x:Name="grdAbout">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="184*"/>
+                        <RowDefinition Height="30*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel x:Name="wpAbout" VerticalAlignment="Center" Grid.Row="0" HorizontalAlignment="Center">
+                        <Image Source="ui/brue_idle.png" Width="64" Height="64" RenderOptions.BitmapScalingMode="NearestNeighbor" Margin="10"/>
+                        <TextBlock Foreground="#FF2F48D4" TextWrapping="Wrap" TextAlignment="Center" Margin="10, 0, 10, 0">
+            Welcome to Brue 1.0.0!<LineBreak/><LineBreak/>
+            Brue's job is to keep track of any important files you may have in your recycle bin, and keep them safe.
+            <LineBreak/><LineBreak/>
+            For bugs and issues:<LineBreak/>
+            <Hyperlink x:Name="hlContact" NavigateUri="mailto:contactbrue@proton.me" RequestNavigate="Hyperlink_RequestNavigate">
+                contactbrue@proton.me
+            </Hyperlink>
+            <LineBreak/><LineBreak/>
+            This app automatically updates.
+            <LineBreak/><LineBreak/>
+            <Hyperlink x:Name="hlDonate" NavigateUri="https://www.paypal.com/donate/?hosted_button_id=38LPX86KQRHC4" RequestNavigate="Hyperlink_RequestNavigate">
+                Support Brue 💜
+            </Hyperlink>
+                        </TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="1" FlowDirection="RightToLeft" Margin="15, 0, 15, 0">
+                        <Button x:Name="btnBackToMain" Content="Back" Style="{DynamicResource BrueButtonStyle}" VerticalAlignment="Center"  Click="btnBackToMain_Click"  Margin="0, 0, 5, 0"/>
+                    </StackPanel>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

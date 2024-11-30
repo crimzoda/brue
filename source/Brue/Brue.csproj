@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>brue.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ui\brue.ico" />
+    <None Remove="ui\brue_audio_file.png" />
+    <None Remove="ui\brue_bin.png" />
+    <None Remove="ui\brue_file.png" />
+    <None Remove="ui\brue_folder.png" />
+    <None Remove="ui\brue_folder_0.png" />
+    <None Remove="ui\brue_folder_2.png" />
+    <None Remove="ui\brue_idle.png" />
+    <None Remove="ui\brue_image_file.png" />
+    <None Remove="ui\brue_sleeping.png" />
+    <None Remove="ui\brue_video_file.png" />
+    <None Remove="ui\cogwheel.png" />
+    <None Remove="ui\question_mark.png" />
+    <None Remove="ui\tray.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>f935dc20-1cf0-11d0-adb9-00c04fd58a0b</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="brue.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ui\brue.ico" />
+    <Resource Include="ui\brue_audio_file.png" />
+    <Resource Include="ui\brue_bin.png" />
+    <Resource Include="ui\brue_file.png" />
+    <Resource Include="ui\brue_folder.png" />
+    <Resource Include="ui\brue_folder_0.png" />
+    <Resource Include="ui\brue_folder_2.png" />
+    <Resource Include="ui\brue_idle.png" />
+    <Resource Include="ui\brue_image_file.png" />
+    <Resource Include="ui\brue_sleeping.png" />
+    <Resource Include="ui\brue_video_file.png" />
+    <Resource Include="ui\cogwheel.png" />
+    <Resource Include="ui\question_mark.png" />
+    <Resource Include="ui\tray.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
