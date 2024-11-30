@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ushan\\source\\repos\\Brue\\",
+  "WorkspaceRootPath": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\source\\repos\\brue\\brue\\brue.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\brue.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\source\\repos\\brue\\brue\\recyclebinmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\recyclebinmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\source\\repos\\brue\\brue\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\source\\repos\\brue\\brue\\recentfiletracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\recentfiletracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\source\\repos\\brue\\brue\\fileitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\fileitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\source\\repos\\brue\\brue\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\source\\repos\\brue\\brue\\fileitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\fileitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\fileitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\source\\repos\\brue\\brue\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\brue.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\brue.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\recyclebinmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\recyclebinmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\recentfiletracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\recentfiletracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\fileitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\fileitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\source\\repos\\brue\\brue\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -46,15 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Brue",
-              "DocumentMoniker": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\Brue.csproj",
+              "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\Brue.csproj",
               "RelativeDocumentMoniker": "Brue\\Brue.csproj",
-              "ToolTip": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\Brue.csproj",
+              "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\Brue.csproj",
               "RelativeToolTip": "Brue\\Brue.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-30T03:45:54.006Z",
@@ -63,88 +63,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "FileItem.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\FileItem.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\FileItem.xaml.cs",
               "RelativeDocumentMoniker": "Brue\\FileItem.xaml.cs",
-              "ToolTip": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\FileItem.xaml.cs",
+              "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\FileItem.xaml.cs",
               "RelativeToolTip": "Brue\\FileItem.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T03:15:50.242Z"
+              "WhenOpened": "2024-10-30T03:15:50.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\App.xaml.cs",
               "RelativeDocumentMoniker": "Brue\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\App.xaml.cs",
               "RelativeToolTip": "Brue\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T01:56:43.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T01:56:43.004Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\App.xaml",
               "RelativeDocumentMoniker": "Brue\\App.xaml",
-              "ToolTip": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\App.xaml",
+              "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\App.xaml",
               "RelativeToolTip": "Brue\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-27T06:49:28.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T06:49:28.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileItem.xaml",
+              "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\FileItem.xaml",
+              "RelativeDocumentMoniker": "Brue\\FileItem.xaml",
+              "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\FileItem.xaml",
+              "RelativeToolTip": "Brue\\FileItem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T06:23:07.472Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FileItem.xaml",
-              "DocumentMoniker": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\FileItem.xaml",
-              "RelativeDocumentMoniker": "Brue\\FileItem.xaml",
-              "ToolTip": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\FileItem.xaml",
-              "RelativeToolTip": "Brue\\FileItem.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-27T06:23:07.472Z",
-              "EditorCaption": ""
+              "Title": "RecentFileTracker.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\RecentFileTracker.cs",
+              "RelativeDocumentMoniker": "Brue\\RecentFileTracker.cs",
+              "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\RecentFileTracker.cs",
+              "RelativeToolTip": "Brue\\RecentFileTracker.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T06:16:38.823Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RecentFileTracker.cs",
-              "DocumentMoniker": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\RecentFileTracker.cs",
-              "RelativeDocumentMoniker": "Brue\\RecentFileTracker.cs",
-              "ToolTip": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\RecentFileTracker.cs",
-              "RelativeToolTip": "Brue\\RecentFileTracker.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAB1AAAAAAAAAA==",
+              "Title": "RecycleBinMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\RecycleBinMonitor.cs",
+              "RelativeDocumentMoniker": "Brue\\RecycleBinMonitor.cs",
+              "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\RecycleBinMonitor.cs",
+              "RelativeToolTip": "Brue\\RecycleBinMonitor.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:16:38.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T06:16:07.869Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RecycleBinMonitor.cs",
-              "DocumentMoniker": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\RecycleBinMonitor.cs",
-              "RelativeDocumentMoniker": "Brue\\RecycleBinMonitor.cs",
-              "ToolTip": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\RecycleBinMonitor.cs",
-              "RelativeToolTip": "Brue\\RecycleBinMonitor.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:16:07.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Brue\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\MainWindow.xaml.cs",
               "RelativeToolTip": "Brue\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAACoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T06:15:42.95Z",
               "EditorCaption": ""
@@ -153,9 +149,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Brue\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\MainWindow.xaml",
               "RelativeToolTip": "Brue\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-27T06:15:45.924Z"

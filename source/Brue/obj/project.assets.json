@@ -55,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\Brue.csproj",
+      "projectUniqueName": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\Brue.csproj",
       "projectName": "Brue",
-      "projectPath": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\Brue.csproj",
+      "projectPath": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\Brue.csproj",
       "packagesPath": "C:\\Users\\ushan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ushan\\source\\repos\\Brue\\Brue\\obj\\",
+      "outputPath": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

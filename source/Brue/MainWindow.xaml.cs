@@ -16,7 +16,7 @@ namespace Brue
     public partial class MainWindow : Window
     {
         private static string localVersion = "1.0.0";
-
+        private string[] directories;
         private RecycleBinMonitor _monitor;
         private readonly HttpClient _httpClient;
 
@@ -30,7 +30,7 @@ namespace Brue
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             CheckForUpdates();
-            string[] directories = CheckBrueDirectory();
+            directories = CheckBrueDirectory();
 
             // Create the RecycleBinMonitor
             _monitor = new RecycleBinMonitor(directories[0], directories[1], this);
@@ -85,13 +85,14 @@ namespace Brue
                 if (_monitor != null)
                 {
                     // Loop through the files in the shadow directory
-                    foreach (string file in FileSystem.GetFiles("recycle_bin_shadow"))
+                    foreach (string file in FileSystem.GetFiles(directories[0]))
                     {
                         FileItem fileItem = new FileItem(this);
 
                         // Get the original file path and set it in the FileItem
-                        string originalFilePath = _monitor.GetOriginalFileName(System.IO.Path.Combine("recycle_bin_shadow", System.IO.Path.GetFileName(file).Replace("$R", "$I")));
+                        string originalFilePath = _monitor.GetOriginalFileName(System.IO.Path.Combine(directories[0], System.IO.Path.GetFileName(file).Replace("$R", "$I")));
                         fileItem.filePath = originalFilePath;
+                        fileItem.recovery_dir = directories[1];
                         fileItem.binPath = file;
                         // Add the FileItem control to the WrapPanel
                         if (originalFilePath != string.Empty)
@@ -116,7 +117,7 @@ namespace Brue
         }
 
         private void btnFolder_Click(object sender, RoutedEventArgs e)
-            => Process.Start("explorer.exe", "recovery");
+            => Process.Start("explorer.exe", directories[1]);
 
         private void btnAbout_Click(object sender, RoutedEventArgs e)
             => tcNavigator.SelectedIndex = 2;

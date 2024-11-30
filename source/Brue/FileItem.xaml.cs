@@ -14,6 +14,7 @@ namespace Brue
     {
         public string filePath { get; set; }
         public string binPath { get; set; }
+        public string recovery_dir;
         private MainWindow _mainWindow;
 
         string[] imageTypes = [".png", ".jpeg", ".jpg", ".mpeg", ".bmp", ".tiff", ".svg", ".webp", ".gif", ".heic"];
@@ -53,7 +54,7 @@ namespace Brue
         {
             if (File.Exists(binPath))
             {
-                File.Copy(binPath, GetUniqueFileName("recovery", System.IO.Path.GetFileName(filePath)));
+                File.Copy(binPath, GetUniqueFileName(recovery_dir, System.IO.Path.GetFileName(filePath)));
                 File.Delete(binPath);
                 _mainWindow.UpdateUI();
             }
