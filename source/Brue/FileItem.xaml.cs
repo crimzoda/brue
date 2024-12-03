@@ -17,6 +17,7 @@ namespace Brue
         public string recovery_dir;
         private MainWindow _mainWindow;
 
+        // Important for icon management
         string[] imageTypes = [".png", ".jpeg", ".jpg", ".mpeg", ".bmp", ".tiff", ".svg", ".webp", ".gif", ".heic"];
         string[] videoTypes = [".mp4", ".mov", ".avi", ".mkv", ".webm", ".flv", ".wmv"];
         string[] audioTypes = [".mp3", ".wav", ".aac", ".ogg", ".flac", ".wma", ".aiff"];
@@ -29,6 +30,7 @@ namespace Brue
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
+            // Initialize all visual properties...
             tbFileName.Text = System.IO.Path.GetFileName(filePath);
             string fileType = System.IO.Path.GetExtension(filePath);
             Trace.WriteLine(fileType);

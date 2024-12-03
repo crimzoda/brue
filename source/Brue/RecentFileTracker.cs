@@ -6,6 +6,8 @@ namespace Brue
 {
     internal class RecentFileTracker
     {
+        // Function: To keep track of files within the 'Recent' file directory
+
         public List<string> RecentFiles { get; set; }
 
         public RecentFileTracker()
@@ -22,6 +24,7 @@ namespace Brue
 
             foreach (string lnkFile in Directory.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.Recent), "*.lnk"))
             {
+                // Once the original directory for .lnk files are retrieved and are verified as valid, they are added to the list of recent files.
                 string resolvedPath = ResolveShortcut(lnkFile);
                 if (!string.IsNullOrEmpty(resolvedPath) && !Path.GetFileName(resolvedPath).StartsWith("$"))
                 {
@@ -36,6 +39,7 @@ namespace Brue
 
         static string ResolveShortcut(string lnkFilePath)
         {
+            // Retrieve the original directory for .lnk shortcut files...
             try
             {
                 WshShell shell = new WshShell();

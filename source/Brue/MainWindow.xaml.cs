@@ -32,7 +32,7 @@ namespace Brue
             CheckForUpdates();
             directories = CheckBrueDirectory();
 
-            // Create the RecycleBinMonitor
+            // Create the RecycleBinMonitor with the necessary AppData directories...
             _monitor = new RecycleBinMonitor(directories[0], directories[1], this);
             _monitor.ShadowDirectoryUpdated += _monitor_ShadowDirectoryUpdated;
             Dispatcher.Invoke(() => UpdateUI());
@@ -40,6 +40,7 @@ namespace Brue
 
         private async Task CheckForUpdates()
         {
+            // Check app version against the repo readme.md version...
             try
             {
                 string latestVersion = await _httpClient.GetStringAsync("https://raw.githubusercontent.com/crimzoda/brue/main/README.md");
@@ -54,6 +55,7 @@ namespace Brue
 
         private string[] CheckBrueDirectory()
         {
+            // Persistent AppData directory
             string appdata_dir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             string brue_data_dir = Path.Combine(appdata_dir, "Brue");
             string shadow_dir = Path.Combine(brue_data_dir, "recycle_bin_shadow");

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\fileitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\fileitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\recyclebinmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\recyclebinmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\brue.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\brue.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\fileitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\fileitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\recyclebinmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\recyclebinmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\brue.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|solutionrelative:brue\\brue.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22B7D40E-5479-45ED-AF39-14E4927412E2}|Brue\\Brue.csproj|c:\\users\\ushan\\documents\\github\\brue\\source\\brue\\recentfiletracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Brue",
               "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\Brue.csproj",
               "RelativeDocumentMoniker": "Brue\\Brue.csproj",
@@ -58,18 +58,17 @@
               "RelativeToolTip": "Brue\\Brue.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-30T03:45:54.006Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FileItem.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\FileItem.xaml.cs",
               "RelativeDocumentMoniker": "Brue\\FileItem.xaml.cs",
               "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\FileItem.xaml.cs",
               "RelativeToolTip": "Brue\\FileItem.xaml.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T03:15:50.242Z",
               "EditorCaption": ""
@@ -122,15 +121,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "RecycleBinMonitor.cs",
               "DocumentMoniker": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\RecycleBinMonitor.cs",
               "RelativeDocumentMoniker": "Brue\\RecycleBinMonitor.cs",
               "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\RecycleBinMonitor.cs",
               "RelativeToolTip": "Brue\\RecycleBinMonitor.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAFQAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T06:16:07.869Z"
+              "WhenOpened": "2024-10-27T06:16:07.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -140,7 +140,7 @@
               "RelativeDocumentMoniker": "Brue\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ushan\\Documents\\GitHub\\brue\\source\\Brue\\MainWindow.xaml.cs",
               "RelativeToolTip": "Brue\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAF4AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAACoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T06:15:42.95Z",
               "EditorCaption": ""

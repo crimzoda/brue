@@ -18,6 +18,7 @@ namespace Brue
         public readonly RecentFileTracker _recentFileTracker;
         private MainWindow _mainWindow;
 
+        // Todo: For a future update, this will be moved to a user settings
         private string[] _flagKeywords = [
             "final", "important", "project", "report", "draft", "release", "official", "submission",
         "statement", "contract", "confidential", "review", "data", "restore", "priority", "urgent"];
@@ -34,6 +35,7 @@ namespace Brue
             _watcher = new FileSystemWatcher(_userRecycleBinPath);
             _recentFileTracker = new RecentFileTracker();
 
+            // Keep active track of file changes in the Recycle Bin
             _watcher.Created += OnRecycleBinChanged;
             _watcher.Deleted += OnRecycleBinChanged;
 
@@ -75,10 +77,12 @@ namespace Brue
                             || _flagKeywords.Any(keyword => originalName.Contains(keyword))
                             || GetFlaggedFileTypes().Any(fileType => Path.GetExtension(originalName) == fileType))
                         {
+                            // Recognize $I metadata files and $R data files...
                             Trace.WriteLine($"Found an important file inside Recycle Bin! {originalName}");
                             if (File.Exists(Path.Combine(_userRecycleBinPath, Path.GetFileName(filePath).Replace("$I", "$R")))
                             && !File.Exists(Path.Combine(_shadowDir, Path.GetFileName(filePath).Replace("$I", "$R"))))
                             {
+                                // If a ($I) metadata file is found, an attempt to find the ($R) data file is made...
                                 File.Copy(Path.Combine(_userRecycleBinPath, Path.GetFileName(filePath).Replace("$I", "$R")), Path.Combine(_shadowDir, Path.GetFileName(filePath).Replace("$I", "$R")));
                             }
                         }
